@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+
+        </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&display=swap');
+
+            *{
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Raleway', sans-serif;
+            }
+
+            body{
+                background-color: #111;
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            nav{
+                position: absolute;
+                width: 100%;
+                top:0;
+                left:0;
+                right:0;
+                display:inline-flex;
+                text-align: center;
+                background-color: transparent;
+            }
+            nav ul{
+                margin: auto ;
+            }
+            nav ul li{
+                list-style-type: none;
+                display: inline-block;
+                padding: 12px;
+            }
+
+            nav ul li a{
+                color:white;
+            }
+
+            nav ul li a:hover{
+                border-bottom: 2px solid white;
+                padding-bottom:12px;
+            }
+            nav span{
+                padding:28px;
+            }
+
+            nav span a{
+                color:white;
+            }
+
+            .explore{
+                position: absolute;
+                right:0;
+            }
+            .explore a:hover {
+                border-bottom: 2px solid white;
+                padding-bottom: 12px;
+            }
+
+            .logo a{
+
+            }
+
+            .logo a:hover {
+                border-bottom: 2px solid white;
+                padding-bottom: 12px;
+            }
+            
+            .hero-container{
+                position: absolute;
+                left: 0;
+                right:0;
+                bottom:0;
+                top:11%;
+                height: 88%;
+                width: 100%;
+                background-image:url("headerimg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                display:flex;
+                align-content:space-evenly;
+            }
+
+            .lcontainer {
+                position: absolute;
+                width: 33%;
+                left: 0;
+                background-color: transparent;
+                height: 100%;
+            }
+
+            .mcontainer {
+                background: #FFFF00;
+                width: 33%;
+                position: absolute;
+                height:80%;
+                left:33.5%;
+            }
+
+            .rcontainer {
+                position: absolute;
+                width: 33%;
+                right: 0;
+                background-color: blue;
+                height: 80%;
+            }
+
+            .inlc {
+                position: absolute;
+                width: 100%;
+                height: 40%;
+                top: 0;
+                background-color: transparent;
+            }
+
+            .inlc span{
+                position:absolute;
+                top:35%;
+                left:10%;
+                font-size:100px;
+                font-weight:bold;
+                color:white;
+            }
+
+                .inlc p {
+                    position: absolute;
+                    top: 70%;
+                    left: 10%;
+                    font-size: 20px;
+                    color:white;
+                    letter-spacing: 15px;
+                }
+
+            .inlcb{
+                position:relative;
+                width:100%;
+                height:58%;
+                top:40%;
+                background-color:transparent;
+            }
+
+                .inlcb a {
+                    width: 60%;
+                    height: 5%;
+                    position: absolute;
+                    top: 50%;
+                    left: 18%;
+                    background-color:white;
+                    color:black;
+                    text-align:center;
+                    padding:12px;
+                    margin: -35px 0 0 -35px;
+                }
+                
+                .inlcb p{
+                    font-size:18px;
+                    position:absolute;
+                    top:6%;
+                    left:10%;
+                    color:white;
+                }
+
+            .inlc span {
+                position: absolute;
+                top: 35%;
+                left: 10%;
+                font-size: 100px;
+                font-weight: bold;
+                color: white;
+            }
+
+
+            .fotter{
+                position:absolute;
+                width: 66%;
+                height:17%;
+                bottom:1%;
+                left:33.5%;
+                background-color:red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <span class="logo"><a href="#">Eur</a></span>
+                
+                <ul>
+                    <li>
+                        <a href="#" > Home</a>
+                    </li>
+                    <li>
+                        <a href="#" > Service</a>
+                    </li>
+                    <li>
+                        <a href="#" > Testimonial</a>
+                    </li>
+                    <li>
+                        <a href="#" > About</a>
+                    </li>
+                </ul>
+                <span class="explore" ><a href="#">Explore</a></span>
+            </nav>
+        </header>
+
+        <main>
+            
+            <section class="hero">
+                <div class="hero-container">
+
+                    <div class="lcontainer">
+                        <div class="inlc">
+                            <span>Eur</span>
+                            <p>Digital Solutions</p>
+                        </div>
+                        <div class="inlcb">
+                            <p>We introduce your business to the world <br/>
+                            and bring your customer right to your door<br />
+                            we have a team of well trained solutionists<br />
+                            ready to assist you in every way posible
+                            </p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="mcontainer">
+                        <h1 style="color:white;">Under Construction</h1>
+
+                    </div>
+
+                    <div class="rcontainer">
+                        <div class="inrc">
+                            <span>Under Construction</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <fotter>
+            <div class="fotter">
+                <h1 style="color:white;">Hello world</h1>
+            </div>
+        </fotter>
+    </body>
+</html>
